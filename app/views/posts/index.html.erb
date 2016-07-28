@@ -1,0 +1,5 @@
+<% @posts.each do |post| %>
+  <div class="carousel"><%= image_tag post.image.url(:large) %></div>
+<% end %>
+
+<%= render "imageform" %>
